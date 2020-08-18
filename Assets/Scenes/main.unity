@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 17380c24072c0954898ab03528ac9077, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.8084487, g: 0.64375234, b: 0.5029485, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -516,7 +516,7 @@ MonoBehaviour:
   definedButton: {fileID: 0}
   periodicTable: {fileID: 0}
   instance: {fileID: 0}
-  element: Cube
+  element: H
   OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -615,6 +615,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &442342622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442342617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: He
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &487921466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8605568377199670175, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -710,6 +729,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: -0.0000000037252903}
+--- !u!114 &541950916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541950911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: Li
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &553983360 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5152361699088150259, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -955,7 +993,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3510604e-38, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7.67e-43, y: 7.9986, z: 7.67e-43, w: 0.000000010314835}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1049,6 +1087,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: -0.000000014901161, y: 0, z: -0.0000000037252903}
+--- !u!114 &736239854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736239849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: O
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &750548449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5588054984822115321, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -1163,6 +1220,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: -0.000000007450581, y: 0, z: -0.0000000037252903}
+--- !u!114 &834313418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834313413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: C
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &838496100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1242560294732457670, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -1258,6 +1334,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: -0.0000000037252903}
+--- !u!114 &892138529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892138524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: F
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &900580966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4172429130439541052, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -1315,7 +1410,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.8773585, g: 0.7591244, b: 0.10346207, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1503,6 +1598,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: -0.0000000037252903}
+--- !u!114 &1065572177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065572172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: N
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1087012904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2450504462253596670, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -1617,6 +1731,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: -0.0000000037252903}
+--- !u!114 &1205766096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205766091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: Ne
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1225155925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6621410372850402029, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
@@ -2602,6 +2735,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: -0.000000007450581, y: 0, z: -0.0000000037252903}
+--- !u!114 &1451028916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451028911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c2ee6a5a0cc4408434f7373b5eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definedButton: {fileID: 0}
+  periodicTable: {fileID: 0}
+  instance: {fileID: 0}
+  element: B
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1466879496 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8371531107336103298, guid: 3fedc9d6b21f00d4c8d10a5348edd69c,
